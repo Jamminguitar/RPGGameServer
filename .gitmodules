@@ -1,6 +1,3 @@
-[submodule "Scs"]
-	path = dependencies/Scs
-	url = https://github.com/Jamminguitar/Scs
 [submodule "dependencies/Scs"]
 	path = dependencies/Scs
 	url = https://github.com/Jamminguitar/Scs

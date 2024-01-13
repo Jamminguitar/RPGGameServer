@@ -1,4 +1,4 @@
-#include <Scs.h>
+#include "../dependencies/Scs/Source/Scs.h"
 
 class serverClient {
     static Scs::ServerPtr server;
@@ -16,7 +16,11 @@ class serverClient {
         serverParams.timeoutSeconds = 15.0;
         server = Scs::CreateServer(serverParams);
 
-        server.StartListening();
+        server->StartListening();
+        return true;
     }
 
+};
+int main() {
+    return 1;
 }
