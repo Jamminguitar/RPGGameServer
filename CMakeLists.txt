@@ -7,7 +7,8 @@ project(
     LANGUAGES CXX)
 
 set(sources ${sources} 
-    src/serverClient.cpp
+    src/ServerClient.cpp
+    src/ServerClient.h
     ../dependencies/Scs/Source/Scs.cpp
     ../dependencies/Scs/Source/Scs.h
     ../dependencies/Scs/Source/ScsAddress.cpp
